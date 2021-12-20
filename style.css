@@ -1,0 +1,79 @@
+body {
+    display: flex;
+}
+
+.game-container {
+    width: 500px;
+    height: 730px;
+    position: absolute;
+    overflow: hidden;
+    left: 80px;
+}
+
+.borderLeft {
+    width: 80px;
+    height: 790px;
+    position: absolute;
+    background-color: white;
+    z-index: +2;
+}
+
+.borderRight {
+    width: 80px;
+    height: 790px;
+    position: absolute;
+    background-color: white;
+    z-index: +2;
+    left: 580px;
+}
+.borderRight {
+    width: 660px;
+    height: 50px;
+    position: absolute;
+    background-color: white;
+    z-index: +2;
+    top: -50px;
+}
+
+.sky {
+    background-image: url('assets/fb-game-background.png');
+    /* background-color: blue; */
+    width: 500px;
+    height: 580px;
+    position: absolute;
+}
+
+.ground {
+    background-image: url('assets/bottom-background.png');
+    /* background-color: brown; */
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 580px;
+    z-index: +1;
+}
+
+.flappy {
+    background-image: url('assets/flappy.png');
+    /* background-color: yellow; */
+    position: absolute;
+    height: 45px;
+    width: 60px;
+}
+
+.greenThing {
+    background-image: url('assets/pipe.png');
+    /* background-color: chartreuse; */
+    width: 60px;
+    height: 300px;
+    position: absolute;
+}
+
+.topGreenThing {
+    background-image: url('assets/pipe.png');
+    /* background-color: chartreuse; */
+    transform: rotate(180deg);
+    width: 60px;
+    height: 300px;
+    position: absolute;
+}
